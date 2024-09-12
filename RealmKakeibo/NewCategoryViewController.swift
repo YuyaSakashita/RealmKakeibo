@@ -1,5 +1,5 @@
 //
-//  NewItemViewController.swift
+//  NewCategoryViewController.swift
 //  RealmKakeibo
 //
 //  Created by 坂下雄哉 on 2024/09/12.
@@ -8,38 +8,30 @@
 import UIKit
 import RealmSwift
 
-class NewItemViewController: UIViewController {
+class NewCategoryViewController: UIViewController {
     
-    @IBOutlet var titleTextField: UITextField!
-    @IBOutlet var priceTextField: UITextField!
-    @IBOutlet var markSwitch: UISwitch!
+    @IBOutlet var categoryTextField: UITextField!
     
     let realm = try! Realm()
-    var category: Category!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func save(){
-        let item = ShoppingItem()
-        item.title = titleTextField.text ?? ""
-        item.price = Int(priceTextField.text ?? "") ?? 0
-        item.isMarked = markSwitch.isOn
-        item.category = category
-        createItem(item: item)
+    @IBAction func save() {
+        let category = Category()
+        category.title = categoryTextField.text ?? ""
+        createCategory(category: category)
         
         self.dismiss(animated: true)
     }
-    
-    func createItem(item:ShoppingItem) {
+
+    func createCategory(category: Category) {
         try! realm.write {
-            realm.add(item)
+            realm.add(category)
         }
     }
-    
-
     /*
     // MARK: - Navigation
 

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D00A44702C91787900E40C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A446F2C91787900E40C3B /* AppDelegate.swift */; };
 		D00A44722C91787900E40C3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A44712C91787900E40C3B /* SceneDelegate.swift */; };
-		D00A44742C91787900E40C3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A44732C91787900E40C3B /* ViewController.swift */; };
+		D00A44742C91787900E40C3B /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A44732C91787900E40C3B /* ItemViewController.swift */; };
 		D00A44772C91787900E40C3B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D00A44762C91787900E40C3B /* Base */; };
 		D00A44792C91787B00E40C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00A44782C91787B00E40C3B /* Assets.xcassets */; };
 		D00A447C2C91787B00E40C3B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D00A447B2C91787B00E40C3B /* Base */; };
@@ -18,13 +18,16 @@
 		D027B6012C92891C00559B3C /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027B5FF2C92891C00559B3C /* ItemTableViewCell.swift */; };
 		D027B6022C92891C00559B3C /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D027B6002C92891C00559B3C /* ItemTableViewCell.xib */; };
 		D027B6042C92A55100559B3C /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027B6032C92A55100559B3C /* NewItemViewController.swift */; };
+		D027B6062C92B8C200559B3C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027B6052C92B8C200559B3C /* Category.swift */; };
+		D027B6082C92BC2500559B3C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027B6072C92BC2500559B3C /* CategoryViewController.swift */; };
+		D027B60A2C92C1CB00559B3C /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027B6092C92C1CB00559B3C /* NewCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D00A446C2C91787900E40C3B /* RealmKakeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmKakeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00A446F2C91787900E40C3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D00A44712C91787900E40C3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D00A44732C91787900E40C3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D00A44732C91787900E40C3B /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		D00A44762C91787900E40C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00A44782C91787B00E40C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00A447B2C91787B00E40C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +36,9 @@
 		D027B5FF2C92891C00559B3C /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		D027B6002C92891C00559B3C /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		D027B6032C92A55100559B3C /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		D027B6052C92B8C200559B3C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D027B6072C92BC2500559B3C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D027B6092C92C1CB00559B3C /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,7 @@
 			children = (
 				D00A446F2C91787900E40C3B /* AppDelegate.swift */,
 				D00A44712C91787900E40C3B /* SceneDelegate.swift */,
-				D00A44732C91787900E40C3B /* ViewController.swift */,
+				D00A44732C91787900E40C3B /* ItemViewController.swift */,
 				D00A44752C91787900E40C3B /* Main.storyboard */,
 				D00A44782C91787B00E40C3B /* Assets.xcassets */,
 				D00A447A2C91787B00E40C3B /* LaunchScreen.storyboard */,
@@ -77,6 +83,9 @@
 				D027B5FF2C92891C00559B3C /* ItemTableViewCell.swift */,
 				D027B6002C92891C00559B3C /* ItemTableViewCell.xib */,
 				D027B6032C92A55100559B3C /* NewItemViewController.swift */,
+				D027B6052C92B8C200559B3C /* Category.swift */,
+				D027B6072C92BC2500559B3C /* CategoryViewController.swift */,
+				D027B6092C92C1CB00559B3C /* NewCategoryViewController.swift */,
 			);
 			path = RealmKakeibo;
 			sourceTree = "<group>";
@@ -160,11 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00A44892C917AAB00E40C3B /* ShoppingItem.swift in Sources */,
-				D00A44742C91787900E40C3B /* ViewController.swift in Sources */,
+				D027B60A2C92C1CB00559B3C /* NewCategoryViewController.swift in Sources */,
+				D00A44742C91787900E40C3B /* ItemViewController.swift in Sources */,
 				D027B6042C92A55100559B3C /* NewItemViewController.swift in Sources */,
 				D027B6012C92891C00559B3C /* ItemTableViewCell.swift in Sources */,
+				D027B6082C92BC2500559B3C /* CategoryViewController.swift in Sources */,
 				D00A44702C91787900E40C3B /* AppDelegate.swift in Sources */,
 				D00A44722C91787900E40C3B /* SceneDelegate.swift in Sources */,
+				D027B6062C92B8C200559B3C /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
